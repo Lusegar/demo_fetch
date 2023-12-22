@@ -23,3 +23,7 @@ class ControllerCar {
     }
 }
 export const newControllerCar = new ControllerCar()
+
+let date1 = new Date().getFullYear();
+
+document.getElementById('p1').innerHTML = date1;

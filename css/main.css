@@ -33,6 +33,10 @@ section ul li{
     color: var(--color-text);
     font-size: 1.5rem;
 }
+footer{
+    color: var(--color-text);
+    text-align: center;
+}
 /*Pour changer de couleur entre une ligne et une autre (alterné)*/ 
 li:nth-child(odd) {
 background-color: var(--backgroud-list);
