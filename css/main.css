@@ -1,0 +1,46 @@
+@import url(./reset.css);
+/* theme */
+
+:root{
+    --background-theme: #2d3436;
+    --backgroud-list: #00b894;
+    --background-list-even: #81ecec;
+    --color-text: #fff;
+}
+body{
+    background-color: var(--background-theme);
+}
+header h1{
+    background-color: var(--backgroud-list);
+    text-align: center;
+    line-height: 7.0rem;
+}
+section{
+    max-width: 120rem;
+    margin: 5rem auto;
+}
+section h2{
+    background-color: #222;
+    color: var(--color-text);
+    text-align: center;
+    line-height: 6.5rem;
+}
+section ul{
+    line-height: 3.5rem;
+}
+section ul li{
+    background-color: #464343;
+    color: var(--color-text);
+    font-size: 1.5rem;
+}
+/*Pour changer de couleur entre une ligne et une autre (alterné)*/ 
+li:nth-child(odd) {
+background-color: var(--backgroud-list);
+}
+li:nth-child(even) {
+background-color: var(--background-theme);
+}
+/* ---Autre maniere---
+li:nth-child(2n + 1) {
+   background-color: var(--backgroud-list);
+}*/
